@@ -50,7 +50,7 @@ public class PalindromeappApplication {
 	}
 
 	private String palindromeResultString(boolean isPalindrome){
-		if (!isPalindrome){
+		if (isPalindrome){
 			return "Is a Palindrome";
 		}
 		else {
